@@ -5,11 +5,11 @@ import typescript from 'rollup-plugin-typescript2';
 import { terser } from 'rollup-plugin-terser';
 
 // eslint-disable-next-line no-undef, @typescript-eslint/no-var-requires
-const packageJson = require('./package.json');
+const packageJson = require('../package.json');
 
 export default [
   {
-    input: './src/index.ts',
+    input: 'src/index.ts',
     output: [
       {
         file: packageJson.main,
@@ -27,7 +27,7 @@ export default [
       peerDepsExternal(),
       resolve(),
       commonjs(),
-      typescript({ tsconfig: 'tsconfig.build.json', }),
+      typescript({ tsconfig: 'config/tsconfig.build.json', }),
       terser(),
     ],
   },

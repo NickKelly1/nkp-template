@@ -25,9 +25,9 @@
     "LICENSE"
   ],
   "scripts": {
-    "test": "jest",
-    "build": "rimraf dist && rollup -c",
-    "test:watch": "jest --watch",
+    "test": "jest -c config/jest.config.ts",
+    "build": "rimraf dist && rollup -c config/rollup.config.js",
+    "test:watch": "jest -c config/jest.config.ts --watch",
     "prepublishOnly": "npm run build"
   },
   "devDependencies": {
