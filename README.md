@@ -1,4 +1,8 @@
-# Getting started
+# Nkp package template
+
+Template for @nkp/ npm packages
+
+## Getting started
 
 1. Install dependencies and run tests
     1. run `npm install`
@@ -20,8 +24,18 @@
     1. Change @nkp---README_PACKAGE_NAME-- from a header-2 to a header-1 (`##` to `#`)
     2. replace --README_PACKAGE_NAME-- in `README.md` with the packages name
     3. Add a description to the package's `README.md`
-    4. Delete the `#Getting Started` section of the README.md
+    4. Delete the `# Nkp package template` and `## Getting Started` sections of the README.md
 
 ## @nkp---README_PACKAGE_NAME--
 
 Description goes here
+
+## Releasing a new version
+
+To a release a new version:
+
+1. Update the version number in package.json
+2. Push the new version to the `master` branch on GitHub
+3. Create a `new release` on GitHub for the latest version
+
+This will trigger a GitHub action that tests and publishes the npm package.
