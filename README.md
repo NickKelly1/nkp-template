@@ -46,6 +46,14 @@ Comes with:
 
 ## @nkp---README_PACKAGE_NAME--
 
+Fill in the following:
+
+```txt
+![npm version](https://badge.fury.io/js/%40nkp%2F--PACKAGE_NAME--.svg)
+[![Node.js Package](https://github.com/NickKelly1/--PACKAGE_NAME--/actions/workflows/npm-publish.yml/badge.svg)](https://github.com/NickKelly1/--GITHUB_PACKAGE_NAME__/actions/workflows/npm-publish.yml)
+![Known Vulnerabilities](https://snyk.io/test/github/NickKelly1/{--GITHUB_PACKAGE_NAME--}/badge.svg)
+```
+
 Description goes here
 
 ## Releasing a new version
