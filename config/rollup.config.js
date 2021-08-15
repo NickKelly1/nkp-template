@@ -12,12 +12,12 @@ export default [
     input: 'src/index.ts',
     output: [
       {
-        file: packageJson.main,
+        file: `dist/${packageJson.main}`,
         format: 'cjs',
         sourcemap: true,
       },
       {
-        file: packageJson.module,
+        file: `dist/${packageJson.module}`,
         format: 'es',
         exports: 'named',
         sourcemap: true,
@@ -31,5 +31,4 @@ export default [
       terser(),
     ],
   },
-  //
 ];
