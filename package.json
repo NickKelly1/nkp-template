@@ -1,5 +1,6 @@
 {
   "name": "@nkp/--NPM_PACKAGE_NAME--",
+  "sideEffects": false,
   "version": "0.0.1",
   "description": "--PACKAGE_DESCRIPTION--",
   "main": "es/index.js",
