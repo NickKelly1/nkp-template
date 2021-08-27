@@ -50,6 +50,7 @@ const config = {
           'objects': 'always',
           'arrays': 'always',
         },],
+        'no-dupe-class-members': ['off',], // allow ts function overloading
         'prefer-arrow-callback': ['off',],
         'import/no-commonjs': ['off',],
         'max-len': ['error', { code: 120, },],
