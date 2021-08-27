@@ -25,11 +25,10 @@ Comes with:
 2. Install dependencies and run tests
     1. run `npm install`
     2. run `npm test`
-3. Replace placeholders in package.json
-    1. Replace --PACKAGE_DESCRIPTION-- with the package's description
-    2. Replace --NPM_PACKAGE_NAME-- with the package's name on NPM
-    3. Replace --GITHUB_PACKAGE_NAME-- with the package's name on GitHub
-    4. Replace --GIT_REPOSITORY-- with the GitHub repositories ssh clone url
+3. Find and replace placeholders in the project
+    1. ---PACKAGE-DESCRIPTION---
+    2. ---NPM-PACKAGE---
+    3. ---GITHUB-URL---
 4. Remove stubs and reset the repos state
     1. Delete `src/add.ts`
     2. Delete `src/add.spec.ts`
@@ -51,12 +50,12 @@ Fill in the following:
 ```txt
 ![npm version](https://badge.fury.io/js/%40nkp%2F--PACKAGE_NAME--.svg)
 [![Node.js Package](https://github.com/NickKelly1/--PACKAGE_NAME--/actions/workflows/npm-publish.yml/badge.svg)](https://github.com/NickKelly1/--GITHUB_PACKAGE_NAME__/actions/workflows/npm-publish.yml)
-![Known Vulnerabilities](https://snyk.io/test/github/NickKelly1/{--GITHUB_PACKAGE_NAME--}/badge.svg)
+![Known Vulnerabilities](https://snyk.io/test/github/NickKelly1/{---GITHUB-URL---}/badge.svg)
 ```
 
 Description goes here
 
-## Releasing a new version
+## Publishing
 
 To a release a new version:
 
