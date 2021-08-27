@@ -29,6 +29,8 @@ Comes with:
     1. ---PACKAGE-DESCRIPTION---
     2. ---NPM-PACKAGE---
     3. ---GITHUB-URL---
+    4. ---GITHUB-ORG-NAME---
+    5. ---GITHUB-PROJECT-NAME---
 4. Remove stubs and reset the repos state
     1. Delete `src/add.ts`
     2. Delete `src/add.spec.ts`
@@ -49,8 +51,8 @@ Fill in the following:
 
 ```txt
 ![npm version](https://badge.fury.io/js/%40nkp%2F--PACKAGE_NAME--.svg)
-[![Node.js Package](https://github.com/NickKelly1/--PACKAGE_NAME--/actions/workflows/npm-publish.yml/badge.svg)](https://github.com/NickKelly1/--GITHUB_PACKAGE_NAME__/actions/workflows/npm-publish.yml)
-![Known Vulnerabilities](https://snyk.io/test/github/NickKelly1/{---GITHUB-URL---}/badge.svg)
+[![Node.js Package](https://github.com/NickKelly1/--PACKAGE_NAME--/actions/workflows/npm-publish.yml/badge.svg)](https://github.com/---GITHUB-ORG-NAME---/---GITHUB-PROJECT-NAME---/actions/workflows/npm-publish.yml)
+![Known Vulnerabilities](https://snyk.io/test/github/---GITHUB-ORG-NAME---/---GITHUB-PROJECT-NAME---/badge.svg)
 ```
 
 Description goes here
