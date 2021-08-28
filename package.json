@@ -1,5 +1,6 @@
 {
   "name": "---NPM-PACKAGE---",
+  "sideEffects": false,
   "version": "0.0.1",
   "description": "---PACKAGE-DESCRIPTION---",
   "main": "cjs/index.js",
