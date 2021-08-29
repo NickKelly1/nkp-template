@@ -3,7 +3,7 @@
     "target": "es6",
     "module": "ESNext",
     "declaration": true,
-    "declarationMap": true,
+    "declarationMap": false,
     "sourceMap": true,
     "outDir": "dist",
     "resolveJsonModule": true,
