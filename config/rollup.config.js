@@ -2,6 +2,7 @@ import peerDepsExternal from 'rollup-plugin-peer-deps-external';
 import resolve from '@rollup/plugin-node-resolve';
 import commonjs from '@rollup/plugin-commonjs';
 import typescript from 'rollup-plugin-typescript2';
+import json from '@rollup/plugin-json';
 // import { terser } from 'rollup-plugin-terser';
 
 // eslint-disable-next-line no-undef, @typescript-eslint/no-var-requires
@@ -28,6 +29,7 @@ export default [
       resolve(),
       commonjs(),
       typescript({ tsconfig: 'config/tsconfig.build.json', }),
+      json(),
       // do not the package by default
       // terser(),
     ],
