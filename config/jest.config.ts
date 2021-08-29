@@ -17,6 +17,8 @@ export default async (): Promise<Config.InitialOptions> => ({
 
   coveragePathIgnorePatterns: ['.spec.util.ts',],
 
+  coverageDirectory: '<rootDir>/coverage',
+
   // for DOM related:
   // testEnvironment: 'jsdom',
 

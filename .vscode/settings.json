@@ -1,4 +1,5 @@
 {
+  "window.title": "---NPM-PACKAGE---",
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   },
