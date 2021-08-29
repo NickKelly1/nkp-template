@@ -23,8 +23,9 @@ Comes with:
     - `git clone git@github.com:NickKelly1/nkp-template.git`
     - (optional): use GitHub's `template` feature.
 2. Install dependencies and run tests
-    1. run `npm install`
-    2. run `npm test`
+    1. If using nvm, run `nvm use` to set the NodeJS version
+    2. run `npm install`
+    3. run `npm test`
 3. Find and replace placeholders in the project
     1. ---PACKAGE-DESCRIPTION---
     2. ---NPM-PACKAGE---
@@ -32,18 +33,13 @@ Comes with:
     4. ---GITHUB-ORG-NAME---
     5. ---GITHUB-PROJECT-NAME---
 4. Remove stubs and reset the repos state
-    1. Delete `src/add.ts`
-    2. Delete `src/add.spec.ts`
-    3. Remove the contents of `src/index.ts`
-    4. set the testEnvironment in `jest.config.ts
+    1. Remove the contents of `src/index.ts`
+    2. set the testEnvironment in `jest.config.ts
+    3. Remove `src/examples`
 5. Add an NPM_TOKEN to the repository for CI
     1. Using npmjs, generate a CI token
     2. Add the token to this GitHub repositories secrets as "NPM_TOKEN"
 6. Set up the README.MD
-    1. Change @nkp---README_PACKAGE_NAME-- from a header-2 to a header-1 (`##` to `#`)
-    2. replace --README_PACKAGE_NAME-- in `README.md` with the packages name
-    3. Add a description to the package's `README.md`
-    4. Delete the `# Nkp package template` and `## Getting Started` sections of the README.md
 
 ## @nkp---README_PACKAGE_NAME--
 
