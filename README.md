@@ -41,13 +41,13 @@ Comes with:
     2. Add the token to this GitHub repositories secrets as "NPM_TOKEN"
 6. Set up the README.MD
 
-## @nkp---README_PACKAGE_NAME--
+## @---NPM-ORG-NAME---/---PACKAGE-NAME---
 
 Fill in the following:
 
 ```txt
-![npm version](https://badge.fury.io/js/%40nkp%2F--PACKAGE_NAME--.svg)
-[![Node.js Package](https://github.com/---GITHUB-ORG-NAME---/--PACKAGE_NAME--/actions/workflows/npm-publish.yml/badge.svg)](https://github.com/---GITHUB-ORG-NAME---/---GITHUB-PROJECT-NAME---/actions/workflows/npm-publish.yml)
+![npm version](https://badge.fury.io/js/%40---NPM-ORG-NAME---%2F---PACKAGE-NAME---.svg)
+[![Node.js Package](https://github.com/---GITHUB-ORG-NAME---/---PACKAGE-NAME---/actions/workflows/npm-publish.yml/badge.svg)](https://github.com/---GITHUB-ORG-NAME---/---GITHUB-PROJECT-NAME---/actions/workflows/npm-publish.yml)
 ![Known Vulnerabilities](https://snyk.io/test/github/---GITHUB-ORG-NAME---/---GITHUB-PROJECT-NAME---/badge.svg)
 ```
 
