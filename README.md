@@ -47,7 +47,7 @@ Fill in the following:
 
 ```txt
 ![npm version](https://badge.fury.io/js/%40nkp%2F--PACKAGE_NAME--.svg)
-[![Node.js Package](https://github.com/NickKelly1/--PACKAGE_NAME--/actions/workflows/npm-publish.yml/badge.svg)](https://github.com/---GITHUB-ORG-NAME---/---GITHUB-PROJECT-NAME---/actions/workflows/npm-publish.yml)
+[![Node.js Package](https://github.com/---GITHUB-ORG-NAME---/--PACKAGE_NAME--/actions/workflows/npm-publish.yml/badge.svg)](https://github.com/---GITHUB-ORG-NAME---/---GITHUB-PROJECT-NAME---/actions/workflows/npm-publish.yml)
 ![Known Vulnerabilities](https://snyk.io/test/github/---GITHUB-ORG-NAME---/---GITHUB-PROJECT-NAME---/badge.svg)
 ```
 
