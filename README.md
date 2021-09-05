@@ -51,7 +51,37 @@ Fill in the following:
 ![Known Vulnerabilities](https://snyk.io/test/github/---GITHUB-ORG-NAME---/---GITHUB-PROJECT-NAME---/badge.svg)
 ```
 
-Description goes here
+---DESCRIPTION-TEXT---
+
+## Table of contents
+
+- [Installation](#installation)
+  - [npm](#npm)
+  - [yarn](#yarn)
+  - [Exports](#exports)
+- [Usage](#usage)
+
+## Installation
+
+### NPM
+
+```sh
+npm install @---NPM-ORG-NAME---/---PACKAGE-NAME---
+```
+
+### Yarn
+
+```sh
+yarn add @---NPM-ORG-NAME---/---PACKAGE-NAME---
+```
+
+### Exports
+
+`@---NPM-ORG-NAME---/---PACKAGE-NAME---` targets CommonJS and ES modules. To utilise ES modules consider using a bundler like `webpack` or `rollup`.
+
+## Usage
+
+---USAGE-TEXT---
 
 ## Publishing
 
