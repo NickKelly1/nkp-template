@@ -32,6 +32,8 @@ Comes with:
     3. ---GITHUB-URL---
     4. ---GITHUB-ORG-NAME---
     5. ---GITHUB-PROJECT-NAME---
+    6. ---NPM-ORG-NAME---
+    7. ---PACKAGE-NAME---
 4. Remove stubs and reset the repos state
     1. Remove the contents of `src/index.ts`
     2. set the testEnvironment in `jest.config.ts
