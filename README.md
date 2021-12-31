@@ -2,6 +2,10 @@
 
 Template for @nkp/ npm packages.
 
+This tempalte uses pnpm as a package manager instead of npm or yarn.
+
+Pnpm improves local development by symbolically linking dependencies and speeding up the installation process.
+
 Comes with:
 
 1. Language: TypeScript & JavaScript
@@ -34,6 +38,8 @@ Comes with:
     5. ---GITHUB-PROJECT-NAME---
     6. ---NPM-ORG-NAME---
     7. ---PACKAGE-NAME---
+    8. ---DESCRIPTION-TEXT---
+    9. ---USAGE-TEXT---
 4. Remove stubs and reset the repos state
     1. Remove the contents of `src/index.ts`
     2. set the testEnvironment in `jest.config.ts
@@ -60,8 +66,10 @@ Fill in the following:
 - [Installation](#installation)
   - [npm](#npm)
   - [yarn](#yarn)
+  - [pnpm](#pnpm)
   - [Exports](#exports)
 - [Usage](#usage)
+- [Updating Dependencies](#updating-dependencies)
 
 ## Installation
 
@@ -77,6 +85,12 @@ npm install @---NPM-ORG-NAME---/---PACKAGE-NAME---
 yarn add @---NPM-ORG-NAME---/---PACKAGE-NAME---
 ```
 
+### PNPM
+
+```sh
+pnpm add @---NPM-ORG-NAME---/---PACKAGE-NAME---
+```
+
 ### Exports
 
 `@---NPM-ORG-NAME---/---PACKAGE-NAME---` targets CommonJS and ES modules. To utilise ES modules consider using a bundler like `webpack` or `rollup`.
@@ -84,6 +98,30 @@ yarn add @---NPM-ORG-NAME---/---PACKAGE-NAME---
 ## Usage
 
 ---USAGE-TEXT---
+
+## Updating dependencies
+
+To update dependencies run one of
+
+```sh
+# if npm
+# update package.json
+npx npm-check-updates -u
+# install
+npm install
+
+# if yarn
+# update package.json
+yarn create npm-check-updates -u
+# install
+yarn
+
+# if pnpm
+# update package.json
+pnpx npm-check-updates -u
+# install
+pnpm install
+```
 
 ## Publishing
 

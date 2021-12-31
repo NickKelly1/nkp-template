@@ -1,7 +1,7 @@
 {
   "name": "---NPM-PACKAGE---",
   "sideEffects": false,
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "---PACKAGE-DESCRIPTION---",
   "main": "cjs/index.js",
   "module": "es/index.js",
@@ -38,7 +38,7 @@
     "@rollup/plugin-commonjs": "^21.0.1",
     "@rollup/plugin-json": "^4.1.0",
     "@rollup/plugin-node-resolve": "^13.1.1",
-    "@types/jest": "^27.0.3",
+    "@types/jest": "^27.4.0",
     "@types/rollup-plugin-peer-deps-external": "^2.2.1",
     "@typescript-eslint/eslint-plugin": "^5.8.1",
     "@typescript-eslint/parser": "^5.8.1",
