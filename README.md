@@ -51,13 +51,9 @@ Comes with:
 
 ## @---NPM-ORG-NAME---/---PACKAGE-NAME---
 
-Fill in the following:
-
-```txt
 [![npm version](https://badge.fury.io/js/%40---NPM-ORG-NAME---%2F---PACKAGE-NAME---.svg)](https://www.npmjs.com/package/@---NPM-ORG-NAME---/---PACKAGE-NAME---)
 [![deploy status](https://github.com/---GITHUB-ORG-NAME---/---GITHUB-PROJECT-NAME---/actions/workflows/release.yml/badge.svg)](https://github.com/---GITHUB-ORG-NAME---/---GITHUB-PROJECT-NAME---/actions/workflows/release.yml)
 [![known vulnerabilities](https://snyk.io/test/github/---GITHUB-ORG-NAME---/---GITHUB-PROJECT-NAME---/badge.svg)](https://snyk.io/test/github/---GITHUB-ORG-NAME---/---GITHUB-PROJECT-NAME---)
-```
 
 ---DESCRIPTION-TEXT---
 
