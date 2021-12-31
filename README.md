@@ -32,12 +32,12 @@ Comes with:
     3. run `npm test`
 3. Find and replace placeholders in the project
     1. ---PACKAGE-DESCRIPTION---
-    2. ---NPM-PACKAGE---
+    2. ---NPM-PACKAGE-IDENTIFIER---
+    6. ---NPM-PACKAGE-ORG-NAME---
+    7. ---NPM-PACKAGE-NAME---
     3. ---GITHUB-URL---
     4. ---GITHUB-ORG-NAME---
     5. ---GITHUB-PROJECT-NAME---
-    6. ---NPM-ORG-NAME---
-    7. ---PACKAGE-NAME---
     8. ---DESCRIPTION-TEXT---
     9. ---USAGE-TEXT---
 4. Remove stubs and reset the repos state
@@ -49,9 +49,9 @@ Comes with:
     2. Add the token to this GitHub repositories secrets as "NPM_TOKEN"
 6. Set up the README.MD
 
-## @---NPM-ORG-NAME---/---PACKAGE-NAME---
+## @---NPM-PACKAGE-ORG-NAME---/---NPM-PACKAGE-NAME---
 
-[![npm version](https://badge.fury.io/js/%40---NPM-ORG-NAME---%2F---PACKAGE-NAME---.svg)](https://www.npmjs.com/package/@---NPM-ORG-NAME---/---PACKAGE-NAME---)
+[![npm version](https://badge.fury.io/js/%40---NPM-PACKAGE-ORG-NAME---%2F---NPM-PACKAGE-NAME---.svg)](https://www.npmjs.com/package/@---NPM-PACKAGE-ORG-NAME---/---NPM-PACKAGE-NAME---)
 [![deploy status](https://github.com/---GITHUB-ORG-NAME---/---GITHUB-PROJECT-NAME---/actions/workflows/release.yml/badge.svg)](https://github.com/---GITHUB-ORG-NAME---/---GITHUB-PROJECT-NAME---/actions/workflows/release.yml)
 [![known vulnerabilities](https://snyk.io/test/github/---GITHUB-ORG-NAME---/---GITHUB-PROJECT-NAME---/badge.svg)](https://snyk.io/test/github/---GITHUB-ORG-NAME---/---GITHUB-PROJECT-NAME---)
 
@@ -72,24 +72,24 @@ Comes with:
 ### NPM
 
 ```sh
-npm install @---NPM-ORG-NAME---/---PACKAGE-NAME---
+npm install @---NPM-PACKAGE-ORG-NAME---/---NPM-PACKAGE-NAME---
 ```
 
 ### Yarn
 
 ```sh
-yarn add @---NPM-ORG-NAME---/---PACKAGE-NAME---
+yarn add @---NPM-PACKAGE-ORG-NAME---/---NPM-PACKAGE-NAME---
 ```
 
 ### PNPM
 
 ```sh
-pnpm add @---NPM-ORG-NAME---/---PACKAGE-NAME---
+pnpm add @---NPM-PACKAGE-ORG-NAME---/---NPM-PACKAGE-NAME---
 ```
 
 ### Exports
 
-`@---NPM-ORG-NAME---/---PACKAGE-NAME---` targets CommonJS and ES modules. To utilise ES modules consider using a bundler like `webpack` or `rollup`.
+`@---NPM-PACKAGE-ORG-NAME---/---NPM-PACKAGE-NAME---` targets CommonJS and ES modules. To utilise ES modules consider using a bundler like `webpack` or `rollup`.
 
 ## Usage
 
