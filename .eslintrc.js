@@ -17,7 +17,7 @@ const config = {
       },
     },
   ],
-  'env': {
+  env: {
     // chose which are appropriate
     'browser': false,
     'node': false,
@@ -25,20 +25,20 @@ const config = {
     'es2021': true,
     'jest': true,
   },
-  'extends': [
+  extends: [
     'plugin:@typescript-eslint/recommended',
     'plugin:@typescript-eslint/eslint-recommended',
     'eslint:recommended',
   ],
-  'parser': '@typescript-eslint/parser',
-  'parserOptions': {
-    'ecmaVersion': 2021,
-    'sourceType': ['module', 'commonjs',],
-    'ecmaFeatures': {
+  parser: '@typescript-eslint/parser',
+  parserOptions: {
+    ecmaVersion: 2021,
+    sourceType: ['module', 'commonjs',],
+    ecmaFeatures: {
       jsx: true, // Allows for the parsing of JSX
     },
   },
-  'plugins': [
+  plugins: [
     '@typescript-eslint',
   ],
   rules: {
