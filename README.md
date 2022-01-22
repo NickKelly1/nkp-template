@@ -69,19 +69,19 @@ Comes with:
 
 ## Installation
 
-### NPM
+### npm
 
 ```sh
 npm install @---NPM-PACKAGE-ORG-NAME---/---NPM-PACKAGE-NAME---
 ```
 
-### Yarn
+### yarn
 
 ```sh
 yarn add @---NPM-PACKAGE-ORG-NAME---/---NPM-PACKAGE-NAME---
 ```
 
-### PNPM
+### pnpm
 
 ```sh
 pnpm add @---NPM-PACKAGE-ORG-NAME---/---NPM-PACKAGE-NAME---
@@ -89,7 +89,7 @@ pnpm add @---NPM-PACKAGE-ORG-NAME---/---NPM-PACKAGE-NAME---
 
 ### Exports
 
-`@---NPM-PACKAGE-ORG-NAME---/---NPM-PACKAGE-NAME---` targets CommonJS and ES modules. To utilise ES modules consider using a bundler like `webpack` or `rollup`.
+`@---NPM-PACKAGE-ORG-NAME---/---NPM-PACKAGE-NAME---` targets CommonJS and ES modules. To utilise ES modules consider using a bundler or setting `package.json#module` to `module`.
 
 ## Usage
 
