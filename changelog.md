@@ -1,9 +1,31 @@
 # Changelog
 
-## 0.0.1 - 202x-xx-xx
+# 0.0.1 - 202x-xx-xx
 
-### Added
+> **Tags:**
+>
+> - [New Feature]
+> - [Bug Fix]
+> - [Breaking Change]
+> - [Documentation]
+> - [Internal]
+> - [Polish]
+> - [Experimental]
+> - [Deprecation]
 
-### Changed
+**Note**: Gaps between patch versions are faulty/broken releases.
 
-### Removed
+- **Polish**
+  - todo
+- **Internal**
+  - todo
+- **New Feature**
+  - todo
+- **Documentation**
+  - todo
+- **Depdecation**
+  - todo
+- **Bug Fix**
+  - todo
+- **Deprecation**
+  - todo

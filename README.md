@@ -59,13 +59,16 @@ Comes with:
 
 ## Table of contents
 
+- [Exports](#exports)
 - [Installation](#installation)
   - [npm](#npm)
   - [yarn](#yarn)
   - [pnpm](#pnpm)
-  - [Exports](#exports)
-- [Usage](#usage)
-- [Updating Dependencies](#updating-dependencies)
+- [Publishing](#publishing)
+
+### Exports
+
+`@---NPM-PACKAGE-ORG-NAME---/---NPM-PACKAGE-NAME---` exports both CommonJS and ES modules.
 
 ## Installation
 
@@ -85,38 +88,6 @@ yarn add @---NPM-PACKAGE-ORG-NAME---/---NPM-PACKAGE-NAME---
 
 ```sh
 pnpm add @---NPM-PACKAGE-ORG-NAME---/---NPM-PACKAGE-NAME---
-```
-
-### Exports
-
-`@---NPM-PACKAGE-ORG-NAME---/---NPM-PACKAGE-NAME---` targets CommonJS and ES modules. To utilise ES modules consider using a bundler or setting `package.json#module` to `module`.
-
-## Usage
-
----USAGE-TEXT---
-
-## Updating dependencies
-
-To update dependencies run one of
-
-```sh
-# if npm
-# update package.json
-npx npm-check-updates -u
-# install
-npm install
-
-# if yarn
-# update package.json
-yarn create npm-check-updates -u
-# install
-yarn
-
-# if pnpm
-# update package.json
-pnpx npm-check-updates -u
-# install
-pnpm install
 ```
 
 ## Publishing
